@@ -47,14 +47,14 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = ""
+            GIT_REPO_NAME = "java-maven-sonar-argocd-helm-k8s"
             GIT_USER_NAME = "yatindra-krishna"
         }
         steps {
             withCredentials([string(credentialsId: 'github', variable: 'GITHUB_TOKEN')]) {
                 sh '''
-                    git config user.email "abhishek.xyz@gmail.com"
-                    git config user.name "Abhishek Veeramalla"
+                    git config user.email "yatindrakrishna4@gmail.com"
+                    git config user.name "Yatindra Krishna"
                     BUILD_NUMBER=${BUILD_NUMBER}
                     sed -i "s/replaceImageTag/${BUILD_NUMBER}/g" spring-boot-app-manifests/deployment.yml
                     git add spring-boot-app-manifests/deployment.yml
