@@ -64,6 +64,4 @@ This end-to-end Jenkins pipeline will automate the entire CI/CD process for a Ja
 Result: 
 
 <img width="1280" alt="Screenshot 2024-08-14 at 7 28 46 PM" src="https://github.com/user-attachments/assets/74a270f5-a3fb-4c77-a6d5-99cce8380c8a">
-
 <img width="1280" alt="Screenshot 2024-08-14 at 7 27 31 PM" src="https://github.com/user-attachments/assets/84d6900c-0b39-4316-ae77-cc560e11e1ec">
-
